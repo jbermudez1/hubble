@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+$colorPrimario: #EA4E60;
+/*EXTENDERS*/
+%margenes {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+%margeneslg {
+	padding-left: 4em;
+	padding-right: 4em;
+}
+body,html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+h2, h1 {
+	font-weight: 300;
+	color: $colorPrimario;
+	font-size: 1.4em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#svg {
+	position: absolute;
+	bottom: -4px;
+	width: 100%;
+	overflow: hidden;
+	svg{
+		width: 400px;
+		height: auto;
+	}
+}
+.primera{
+	position: relative;
+	min-height: 100%;
+	background-image:url(../../img/ciudad.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 250%;
+	padding-top: 7em;
+}
+.wrap {
+	@extend %margenes;
+
+}
+.segunda{
+	min-height: 100%;
+	background-color: white;
+}
+nav{
+	@extend %margenes;
+	padding-top: 2em;
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	.logo{
+		text-align: center;
+		width: 100%
+		img{
+			width: 70%;
+			max-width: 100%;
+		}
+	}
+	.menu{
+		float: right;
+		list-style: none;
+		padding-top: 1.5em;
+		li{
+			display: inline;
+			margin-left: 1em;
+			color: gray
+		}
+	}
+}
+
+button.comenzar {
+ border: solid 1px $colorPrimario;
+ border-radius: 10em;
+ padding: 0.5em;
+ background-color: transparent;
+ color: $colorPrimario;
+ font-size: 1.5em;
+ font-weight: 300;
+}
+
+
+
+
+
+
+

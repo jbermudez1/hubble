@@ -1,48 +1,40 @@
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+@media (min-width: 768px) {
+  /* line 6, ../saas/hubblemedias.scss */
+  .wrap {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-	.banner p{
-			padding-top: 8em;
-		}
-	/*nav{
-		position: absolute;
-		z-index: 10;
-		}*/
-	/*nav .logo{
-		float: left;
-	}*/
+  /* line 11, ../saas/hubblemedias.scss */
+  nav .logo {
+    width: auto;
+    float: left;
+  }
 
-	section{
-		padding-left: 5em;
-		padding-right: 5em;
-	}
+  /* line 16, ../saas/hubblemedias.scss */
+  .primera {
+    background-size: 100%;
+  }
 
-	.columna{
-			width: 75%;
-			display: inline-block;
-			padding-left: 2em;
-			padding-right: 2em;
-			float: left;
-	}
+  /* line 20, ../saas/hubblemedias.scss */
+  #svg svg {
+    width: 500px;
+  }
 
-
-	.columna2{
-			width: 20%;
-			display: inline-block;
-			padding-left: 2em;
-			padding-right: 2em;
-			text-align: center;
-			float: left;
-	}
-
-
-
- }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+  /* line 24, ../saas/hubblemedias.scss */
+  h1 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 992px) {
+  /* line 36, ../saas/hubblemedias.scss */
+  #svg svg {
+    width: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 45, ../saas/hubblemedias.scss */
+  #svg svg {
+    width: 700px;
+  }
+}
