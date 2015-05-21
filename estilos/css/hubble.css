@@ -1,36 +1,97 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
-
-body,html{
-	height:100%;
-	font-family: 'Lato', sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/*EXTENDERS*/
+/* line 4, ../saas/hubble.scss */
+.wrap, nav {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
-img, figure{
-	width: auto;
-	max-width: 100%;
+/* line 12, ../saas/hubble.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 
-
-nav{
-	width:100%; 
-	padding-left: 5em; 
-	padding-right: 5em;
-	padding-top: 1em;
-	padding-bottom:1em;
-	position: absolute;
-	z-index: 10;
-
+/* line 19, ../saas/hubble.scss */
+h2, h1 {
+  font-weight: 300;
+  color: #ea4e60;
+  font-size: 1.4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-.arriba{
-	height: 80%;
+/* line 26, ../saas/hubble.scss */
+#svg {
+  position: absolute;
+  bottom: -4px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 31, ../saas/hubble.scss */
+#svg svg {
+  width: 400px;
+  height: auto;
 }
 
-nav .logo{
-	text-align: center;
-	float: left;
-	padding-top: 2em;
+/* line 36, ../saas/hubble.scss */
+.primera {
+  position: relative;
+  min-height: 100%;
+  background-image: url(../../img/ciudad.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 250%;
+  padding-top: 7em;
 }
+
+/* line 49, ../saas/hubble.scss */
+.segunda {
+  min-height: 100%;
+  background-color: white;
+}
+
+/* line 53, ../saas/hubble.scss */
+nav {
+  padding-top: 2em;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+}
+/* line 59, ../saas/hubble.scss */
+nav .logo {
+  text-align: center;
+  width: 100% img;
+  width-width: 70%;
+  width-max-width: 100%;
+}
+/* line 67, ../saas/hubble.scss */
+nav .menu {
+  float: right;
+  list-style: none;
+  padding-top: 1.5em;
+}
+/* line 71, ../saas/hubble.scss */
+nav .menu li {
+  display: inline;
+  margin-left: 1em;
+  color: gray;
+}
+
+/* line 79, ../saas/hubble.scss */
+button.comenzar {
+  border: solid 1px #ea4e60;
+  border-radius: 10em;
+  padding: 0.5em;
+  background-color: transparent;
+  color: #ea4e60;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+<<<<<<< HEAD
 
 nav .menu{
 	float:right;
@@ -122,3 +183,5 @@ section{
 
 
 
+=======
+>>>>>>> origin/master

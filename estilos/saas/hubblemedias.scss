@@ -1,0 +1,49 @@
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+@media (min-width: $screen-sm-min) { 
+%margeneslg {
+	padding-left: 4em;
+	padding-right: 4em;
+}
+	nav{
+		.logo{
+			width: auto;
+			float: left;
+		}
+	}
+	.primera{
+		background-size: 100%;
+	}
+	#svg{
+		svg{
+			width: 500px;
+		}
+	}
+	h1{
+		font-size: 2.5em;
+	}
+	.wrap {
+	@extend %margeneslg;
+
+	}
+}
+
+@media (min-width: $screen-md-min) { 
+
+	#svg{
+		svg{
+			width: 600px;
+		}
+	}
+}
+
+@media (min-width: $screen-lg-min) {
+
+		#svg{
+		svg{
+			width: 700px;
+		}
+	}
+}

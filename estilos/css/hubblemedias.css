@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -45,3 +46,45 @@
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
+=======
+@media (min-width: 768px) {
+  /* line 6, ../saas/hubblemedias.scss */
+  .wrap {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  /* line 11, ../saas/hubblemedias.scss */
+  nav .logo {
+    width: auto;
+    float: left;
+  }
+
+  /* line 16, ../saas/hubblemedias.scss */
+  .primera {
+    background-size: 100%;
+  }
+
+  /* line 20, ../saas/hubblemedias.scss */
+  #svg svg {
+    width: 500px;
+  }
+
+  /* line 24, ../saas/hubblemedias.scss */
+  h1 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 992px) {
+  /* line 36, ../saas/hubblemedias.scss */
+  #svg svg {
+    width: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 45, ../saas/hubblemedias.scss */
+  #svg svg {
+    width: 700px;
+  }
+}
+>>>>>>> origin/master
