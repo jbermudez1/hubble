@@ -1,6 +1,58 @@
+<<<<<<< HEAD
 /**********************************
 XS - MENOS DE 768
 **********************************/
+=======
+<<<<<<< HEAD
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.banner p{
+			padding-top: 8em;
+		}
+	/*nav{
+		position: absolute;
+		z-index: 10;
+		}*/
+	/*nav .logo{
+		float: left;
+	}*/
+
+	section{
+		padding-left: 5em;
+		padding-right: 5em;
+	}
+
+	.columna{
+			
+			display: inline-block;
+			padding-left: 2em;
+			padding-right: 2em;
+			float: left;
+	}
+
+
+	.columna2{
+			display: inline-block;
+			padding-left: 2em;
+			padding-right: 2em;
+			text-align: center;
+			float: left;
+	}
+
+
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+=======
+>>>>>>> origin/master
 @media (min-width: 768px) {
   /* line 9, ../saas/hubblemedias.scss */
   .wrap {
@@ -115,3 +167,4 @@ IPAD
     width: 100%;
   }
 }
+>>>>>>> origin/master
