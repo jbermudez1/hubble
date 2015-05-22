@@ -2,23 +2,21 @@ $screen-sm-min: 768px;
 $screen-md-min: 992px;
 $screen-lg-min: 1200px;
 
+/**********************************
+XS - MENOS DE 768
+**********************************/
 @media (min-width: $screen-sm-min) { 
 %margeneslg {
 	padding-left: 4em;
 	padding-right: 4em;
 }
-	nav{
-		.logo{
-			width: auto;
-			float: left;
-		}
-	}
+
 	.primera{
 		background-size: 100%;
 	}
 	#svg{
 		svg{
-			width: 500px;
+			width: 400px;
 		}
 	}
 	h1{
@@ -28,22 +26,94 @@ $screen-lg-min: 1200px;
 	@extend %margeneslg;
 
 	}
+	.wrapSecond {
+	@extend %margenes;
+	width: 60%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	button.comenzar{
+		font-size: 1.5em
+	}
+	.formRegistro{
+		width: 50%;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+.detallesIconos {
+	font-size: 4em;
+	padding:0.2em;
+
 }
-
+}
+/**********************************
+SM 992px
+**********************************/
 @media (min-width: $screen-md-min) { 
-
-	#svg{
-		svg{
-			width: 600px;
+		.formRegistro{
+		width: 30%;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+		nav{
+		.logo{
+			width: auto;
+			float: left;
 		}
 	}
-}
+	#svg{
+		svg{
+			width: 500px;
+		}
+	}
+	.dosBox {
 
+		&> div {
+		width: 50%;
+		float: right;
+
+		}
+	} 
+}
+/**********************************
+LG 1200
+**********************************/
 @media (min-width: $screen-lg-min) {
 
 		#svg{
-		svg{
-			width: 700px;
+			svg{
+				width: 50%;
+			}
+		}
+	.circulos {
+		position: relative;
+		height: 15em;
+		p{
+			width: 50%;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
+
 }
+/**********************************
+IPAD
+**********************************/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+			#svg{
+			svg{
+				width: 100%;
+			}
+		}
+
+}
+

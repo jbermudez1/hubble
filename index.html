@@ -1,42 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Titulo</title>
+<title>Hubble App - Encuestas Multidispositivos</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="HandheldFriendly" content="true" />
 <link rel="stylesheet" href="estilos/css/normalize.css">
 <link rel="stylesheet" href="estilos/css/animate.css">
-
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="estilos/css/hubble.css">
 <link rel="stylesheet" href="estilos/css/hubblemedias.css">
 </head>
 <body>
-	<nav>
-		<div class="wrap">
-			<figure class="logo">
-				<img src="img/hubble-01.svg">
-			</figure>
-			<ul class="menu hidden-xs">
-				<li>Comenzar</li>
-				<li>Ejemplos</li>
-				<li>Tarifas</li>
-				<li>Ayuda</li>
-				<li>Log in</li>
-			</ul>
-		</div>
-	</nav>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-63001281-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	<section class="topMenus">
+		<!-- Aki se cargan los menus -->
+	</section>
 	<section class="primera text-center">
+
 		<div class="wrap">
-			<h1>CONOCE LO QUE OPINAN DE TU PRODUCTO.</h1>
-			<button class="comenzar">Comenzar</button>
+			<br>
+			<h1>TODOS TIENEN ALGO QUE DECIR, <span>ESCÚCHALOS</span></h1>
+			<div class="hidden-xs">
+				<p class="mensajes">Aplica encuestas desde tu pc, tablet o smartphone, y conoce la opinión de las personas<b> en tiempo real.</b></p>
+			</div>
+			<button  class="comenzar irComenzar">Comenzar</button>
 		</div>
 		<article id="svg"></article>
 	</section>
-	<section class="segunda">
-		2
+	<section class="seccionDos">
+		<div class="wrap text-center">
+			<h1>HUBBLE <span>TE ENCANTARÁ</span></h1>
+			<br>
+			<div class="row circulos">
+				<div class="col-sm-4">
+					<img class="" src="img/ic1.svg">
+					<p>Crea una encuesta, asigna fecha de inicio, encuestadores, sucursales, etc. todo en un par de minutos.</p>
+				</div>
+				<hr class="visible-xs">
+				<div class="col-sm-4">
+					<img class="" src="img/ic2.svg">
+					<p>Aplica tus encuestas desde cualquier Pc, Tablet, o SmarthPhone, en cualquier lugar y a cualquier hora.</p>
+				</div>
+				<hr class="visible-xs">
+				<div class="col-sm-4">
+					<img class="" src="img/ic3.svg">
+					<p>Observa los resultados y estadísticas en tiempo real, por sucursal, encuestador, respuestas etc.</p>
+				</div>
+			</div>
+
+		</div>
+		<article class="text-center">
+			<br>
+
+			<br>
+			<figure class="disp">
+				<img src="img/disp.jpg">
+			</figure>
+			<h1>Simple, Fácil <span>y Poderoso</span></h1>
+			<br>
+			<button class="btnRelleno conoceMas">Conce más&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
+			<br>
+			<br>			
+		</article>
 	</section>
+	<section class="seccionTres">
+		<div class="wrap text-center">
+			<p class="tBlanco">Análisis de información <span>en tiempo real</span></p>
+			<div class="dosBox">
+				<div clas="info">
+
+					<div class="row ">
+						<div class="col-lg-4">	
+							<p><i class="fa fa-heart fa-3x"></i></p>
+							<p>
+								Te mostramos lo que sienten las personas acerca de tu servicio, producto o marca, lo analizamos, graficamos y  presentamos en tiempo real.
+							</p>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p  class="visible-lg"><i class="fa fa-pie-chart fa-3x"></i></p>
+							<p class="visible-lg">
+							Hubble captura la información de cada persona que responde tus encuestas, las procesa y te muestra un resultado gráfico simple y eficiente.
+							</p>
+						</div>
+						<div class="col-sm-12 col-lg-4">
+							<p  class="visible-lg"><i class="fa fa-cogs fa-3x"></i></p>
+							<p class="visible-lg">
+							¿necesitas mas detalle? Simple, pero poderoso, conoce detalles específicos de cada persona que respondió tu encuesta, por fecha, lugar, sucursal, y un sin fin de criterios más.
+							</p>
+						</div>
+
+					</div>
+					<!-- <p class="tBlanco">Hubble para empresas</p> -->
+					<div class="text-center">
+						<button class="btnRellenoBlanco conoceMas">Conce más&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<i class="fa fa-angle-right"></i>
+						</button>
+					</div>
+
+				</div>
+				<div class="imgGrafica">
+					<img src="img/grafica-01.svg">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="seccionCuatro">
+		<div class="wrap text-center">
+			<h1>Justo lo que<span> necesitas</span></h1>
+			<h3>La mejor manera de conocer lo que opinan las personas, <span>compruébalo.</span></h3>
+			<button  class="comenzar irComenzar">Comenzar</button>
+
+		</di>
+	</section>
+
+	<footer>
+
+	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>

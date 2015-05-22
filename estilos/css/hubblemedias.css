@@ -1,40 +1,117 @@
+/**********************************
+XS - MENOS DE 768
+**********************************/
 @media (min-width: 768px) {
-  /* line 6, ../saas/hubblemedias.scss */
+  /* line 9, ../saas/hubblemedias.scss */
   .wrap {
     padding-left: 4em;
     padding-right: 4em;
   }
 
-  /* line 11, ../saas/hubblemedias.scss */
+  /* line 14, ../saas/hubblemedias.scss */
+  .primera {
+    background-size: 100%;
+  }
+
+  /* line 18, ../saas/hubblemedias.scss */
+  #svg svg {
+    width: 400px;
+  }
+
+  /* line 22, ../saas/hubblemedias.scss */
+  h1 {
+    font-size: 2.5em;
+  }
+
+  /* line 29, ../saas/hubblemedias.scss */
+  .wrapSecond {
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 37, ../saas/hubblemedias.scss */
+  button.comenzar {
+    font-size: 1.5em;
+  }
+
+  /* line 40, ../saas/hubblemedias.scss */
+  .formRegistro {
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* line 47, ../saas/hubblemedias.scss */
+  .detallesIconos {
+    font-size: 4em;
+    padding: 0.2em;
+  }
+}
+/**********************************
+SM 992px
+**********************************/
+@media (min-width: 992px) {
+  /* line 57, ../saas/hubblemedias.scss */
+  .formRegistro {
+    width: 30%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* line 65, ../saas/hubblemedias.scss */
   nav .logo {
     width: auto;
     float: left;
   }
 
-  /* line 16, ../saas/hubblemedias.scss */
-  .primera {
-    background-size: 100%;
-  }
-
-  /* line 20, ../saas/hubblemedias.scss */
+  /* line 71, ../saas/hubblemedias.scss */
   #svg svg {
     width: 500px;
   }
 
-  /* line 24, ../saas/hubblemedias.scss */
-  h1 {
-    font-size: 2.5em;
+  /* line 77, ../saas/hubblemedias.scss */
+  .dosBox > div {
+    width: 50%;
+    float: right;
   }
 }
-@media (min-width: 992px) {
-  /* line 36, ../saas/hubblemedias.scss */
-  #svg svg {
-    width: 600px;
-  }
-}
+/**********************************
+LG 1200
+**********************************/
 @media (min-width: 1200px) {
-  /* line 45, ../saas/hubblemedias.scss */
+  /* line 90, ../saas/hubblemedias.scss */
   #svg svg {
-    width: 700px;
+    width: 50%;
+  }
+
+  /* line 94, ../saas/hubblemedias.scss */
+  .circulos {
+    position: relative;
+    height: 15em;
+  }
+  /* line 97, ../saas/hubblemedias.scss */
+  .circulos p {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/**********************************
+IPAD
+**********************************/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 113, ../saas/hubblemedias.scss */
+  #svg svg {
+    width: 100%;
   }
 }

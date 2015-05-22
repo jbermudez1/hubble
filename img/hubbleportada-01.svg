@@ -10,7 +10,7 @@
 	 xml:space="preserve">
 
 <g id="Layer_1" >
-	<g class="globo1 animated fadeInUp">
+	<g class="globo1 animated">
 		<g class="" style="">
 			<polygon fill="#EA4E60" points="264.208,50.772 264.208,65.991 281.303,52.156 "/>
 			<circle class="" fill="#EA4E60" cx="281.127" cy="29.9" r="27.5"/>
@@ -1142,8 +1142,8 @@
 		<circle fill="#EA4E60" cx="499.177" cy="48.581" r="26.213"/>
 	</g>
 	<g>
-		<circle fill="#red" cx="507.362" cy="42.312" r="2.29"/>
-		<circle fill="#red" cx="490.417" cy="42.312" r="2.29"/>
+		<circle fill="white" cx="507.362" cy="42.312" r="2.29"/>
+		<circle fill="white" cx="490.417" cy="42.312" r="2.29"/>
 	</g>
 	<path fill="none" stroke="#FFFFFF" stroke-width="1.8192" stroke-linecap="round" stroke-miterlimit="10" d="M513.265,58.722
 		c0,0-3.423-6.067-13.462-6.067s-15.287,6.619-15.287,6.619"/>

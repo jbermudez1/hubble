@@ -1,43 +1,79 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 /*EXTENDERS*/
-/* line 4, ../saas/hubble.scss */
-.wrap, nav {
+/* line 5, ../saas/hubble.scss */
+.wrap, .wrapSecond, nav {
   padding-left: 2em;
   padding-right: 2em;
 }
 
-/* line 12, ../saas/hubble.scss */
+/* line 13, ../saas/hubble.scss */
+img {
+  max-width: 100%;
+  width: auto;
+}
+
+/* line 17, ../saas/hubble.scss */
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* line 21, ../saas/hubble.scss */
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
   min-height: 100%;
   font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: gray;
 }
 
-/* line 19, ../saas/hubble.scss */
-h2, h1 {
+/* line 31, ../saas/hubble.scss */
+h1 {
   font-weight: 300;
   color: #ea4e60;
-  font-size: 1.4em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 1.8em;
+}
+/* line 35, ../saas/hubble.scss */
+h1 span {
+  color: gray;
+  font-weight: 400;
 }
 
-/* line 26, ../saas/hubble.scss */
+/* line 41, ../saas/hubble.scss */
+.tBlanco {
+  font-weight: 300;
+  color: white;
+  font-size: 2.4em;
+  line-height: 1em;
+}
+/* line 46, ../saas/hubble.scss */
+.tBlanco span {
+  color: #cde134;
+  font-weight: 400;
+}
+
+/* line 51, ../saas/hubble.scss */
+.mensajes {
+  color: gray;
+  font-size: 1em;
+}
+
+/* line 56, ../saas/hubble.scss */
 #svg {
   position: absolute;
   bottom: -4px;
   width: 100%;
   overflow: hidden;
 }
-/* line 31, ../saas/hubble.scss */
+/* line 61, ../saas/hubble.scss */
 #svg svg {
   width: 400px;
   height: auto;
 }
 
-/* line 36, ../saas/hubble.scss */
+/* line 66, ../saas/hubble.scss */
 .primera {
   position: relative;
   min-height: 100%;
@@ -45,49 +81,268 @@ h2, h1 {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 250%;
-  padding-top: 7em;
+  padding-top: 4em;
 }
 
-/* line 49, ../saas/hubble.scss */
-.segunda {
-  min-height: 100%;
+/* line 83, ../saas/hubble.scss */
+.seccionDos {
+  /*min-height: 100%;*/
   background-color: white;
+  position: relative;
+  padding-top: 1em;
+}
+/* line 88, ../saas/hubble.scss */
+.seccionDos:before {
+  content: "";
+  background-color: #ea4e60;
+  height: 0.5em;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 
-/* line 53, ../saas/hubble.scss */
+/* line 97, ../saas/hubble.scss */
+.seccionTres {
+  background-color: #ea4e60;
+  position: relative;
+  padding-top: 1em;
+  color: white!important;
+}
+
+/* line 104, ../saas/hubble.scss */
+.seccionCuatro {
+  min-height: 50%;
+  padding-bottom: 1em;
+  background-color: white;
+  position: relative;
+  padding-top: 1em;
+  background-image: url(../../img/ciudad.jpg);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  color: white!important;
+}
+/* line 114, ../saas/hubble.scss */
+.seccionCuatro h3 {
+  color: gray;
+  font-weight: 300;
+}
+/* line 117, ../saas/hubble.scss */
+.seccionCuatro h3 span {
+  color: #ea4e60;
+}
+
+/* line 122, ../saas/hubble.scss */
 nav {
-  padding-top: 2em;
+  padding-top: 1em;
   z-index: 10;
   position: absolute;
   width: 100%;
 }
-/* line 59, ../saas/hubble.scss */
+/* line 128, ../saas/hubble.scss */
 nav .logo {
   text-align: center;
   width: 100% img;
   width-width: 70%;
   width-max-width: 100%;
 }
-/* line 67, ../saas/hubble.scss */
+/* line 136, ../saas/hubble.scss */
 nav .menu {
   float: right;
   list-style: none;
   padding-top: 1.5em;
 }
-/* line 71, ../saas/hubble.scss */
+/* line 140, ../saas/hubble.scss */
 nav .menu li {
   display: inline;
   margin-left: 1em;
+}
+/* line 143, ../saas/hubble.scss */
+nav .menu li a {
   color: gray;
 }
+/* line 145, ../saas/hubble.scss */
+nav .menu li a:hover {
+  color: #ea4e60;
+}
 
-/* line 79, ../saas/hubble.scss */
+/* line 153, ../saas/hubble.scss */
 button.comenzar {
   border: solid 1px #ea4e60;
   border-radius: 10em;
-  padding: 0.5em;
+  padding: 0.8em;
   background-color: transparent;
   color: #ea4e60;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: 300;
+  margin-top: 1em;
+}
+/* line 162, ../saas/hubble.scss */
+button.comenzar:hover, button.comenzar:Active {
+  background-color: #ea4e60;
+  color: white;
+}
+
+/* line 167, ../saas/hubble.scss */
+button.btnRelleno {
+  border: solid 1px #ea4e60;
+  background-color: #ea4e60;
+  padding: 0.6em;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+/* line 174, ../saas/hubble.scss */
+button.btnRelleno:hover {
+  background-color: white;
+  color: #ea4e60;
+}
+
+/* line 179, ../saas/hubble.scss */
+button.btnRellenoBlanco {
+  border: solid 1px white;
+  background-color: white;
+  padding: 0.6em;
+  margin: 1em;
+  color: #ea4e60;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+/* line 187, ../saas/hubble.scss */
+button.btnRellenoBlanco:hover {
+  background-color: #ea4e60;
+  color: white;
+}
+
+/* line 193, ../saas/hubble.scss */
+.iconShowMenu {
+  position: absolute;
+  color: #ea4e60;
+  margin-left: 1em;
+  margin-top: 1.8em;
+  z-index: 99;
+}
+
+/* line 200, ../saas/hubble.scss */
+.ocultaMenu {
+  color: white;
+  position: absolute;
+  right: 2em;
+  top: 1.8em;
+}
+
+/* line 206, ../saas/hubble.scss */
+.formRegistro {
+  /*border: solid 1px lightgray;
+  box-shadow: 0px 0px 5px gray;
+  background-color: $colorPrimario;*/
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+/* line 212, ../saas/hubble.scss */
+.formRegistro input {
+  border-bottom: solid lightgray 1px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  font-weight: 100;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  color: #ea4e60;
+  width: 80%;
+}
+
+/* line 227, ../saas/hubble.scss */
+.terminos {
+  padding-top: 1em;
+}
+
+/* line 230, ../saas/hubble.scss */
+.dosBox {
+  overflow: hidden;
+  margin-top: 3em;
+}
+
+/* line 235, ../saas/hubble.scss */
+footer {
+  background-color: gray;
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 1em;
+}
+/* line 241, ../saas/hubble.scss */
+footer a {
+  color: lightgray;
+}
+
+/* line 245, ../saas/hubble.scss */
+.menuLateral {
+  position: fixed;
+  z-index: 99;
+  background-color: #ea4e60;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+}
+
+/* line 255, ../saas/hubble.scss */
+.oculto {
+  transform: translate3d(-100%, 0, 0);
+  -webkit-transform: translate3d(-100%, 0, 0);
+}
+
+/* line 261, ../saas/hubble.scss */
+.disableScroll {
+  overflow-x: hidden;
+  position: relative;
+  -webkit-marquee-overflow-x: behavior;
+}
+
+/* line 266, ../saas/hubble.scss */
+.detalles {
+  margin-top: 2em;
+}
+
+/* line 270, ../saas/hubble.scss */
+.detalleDesc, .detallesIconos {
+  min-height: 50px;
+}
+
+/* line 273, ../saas/hubble.scss */
+.detalleDesc {
+  text-align: left;
+  vertical-align: center;
+  padding-left: 2em;
+}
+/* line 277, ../saas/hubble.scss */
+.detalleDesc:first-letter {
+  color: #ea4e60;
+  font-size: 1.5em;
+}
+
+/* line 282, ../saas/hubble.scss */
+.detallesIconos {
+  font-size: 2em;
+  padding: 0em;
+  color: #ea4e60;
+}
+
+/* line 287, ../saas/hubble.scss */
+.imgdashboard img {
+  max-width: 50%;
+}
+
+/* line 290, ../saas/hubble.scss */
+.menu2 {
+  padding-top: 6em;
+  list-style: none;
+}
+/* line 294, ../saas/hubble.scss */
+.menu2 a {
+  color: white;
 }
