@@ -207,7 +207,6 @@ button.btnRellenoBlanco {
   font-size: 1.1em;
   font-weight: 300;
 }
-<<<<<<< HEAD
 /* line 187, ../saas/hubble.scss */
 button.btnRellenoBlanco:hover {
   background-color: #ea4e60;
@@ -347,99 +346,3 @@ footer a {
 .menu2 a {
   color: white;
 }
-=======
-<<<<<<< HEAD
-
-nav .menu{
-	float:right;
-	color: #b8b9bc;
-	padding-top: 3em;
-}
-
-section{
-	padding-left: 2em;
-	padding-right: 2em;
-}
-
-.menu li{
-	display: inline;
-	margin-left: 1em;
-}
-
-.banner{
-	background-image: url(../../img/banner.png); 
-	background-size: cover;
-	height: 80%;
-	background-position: center;
-}
-
-.banner p{
-	color: white;
-	padding-top: 5em;
-	font-size: 2em;
-	font-weight: 900;
-	line-height: 40px;
-}
-
-.ban2{
-	font-size: 1.5em;
-}
-
-
-.rombo{
-	padding-top: 2em;
-	text-align: left;
-	clear: both;
-	position: relative;
-	padding-bottom: 2em;
-	overflow: hidden;
-
-}
-
-.columna{
-	margin-bottom: 1em;
-	font-size: 1em;
-
-}
-
-
-.btn {
-  -webkit-border-radius: 14;
-  -moz-border-radius: 14;
-  border-radius: 1em;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  background: #68d111;
-  padding-top:0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 1.2em;
-  padding-right: 1.2em;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #4ea805;
-  text-decoration: none;
-}
-
-.titulo{
-	position: 20%;
-	text-align: center;
-	color: #e4505d;
-	font-size: 3em;
-	padding-top: 3em;
-}
-
-.subt{
-	text-align: center;
-	color: #e4505d;
-	font-size: 1.5em;
-}
-
-
-
-
-=======
->>>>>>> origin/master
->>>>>>> origin/master
